@@ -1,0 +1,26 @@
+{
+  "name": "@b1ts/test",
+  "version": "1.1.0",
+  "description": "b1ts test package",
+  "peerDependencies": {
+    "@angular/core": "^15.0.0"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
+  "devDependencies": {
+    "ng-packagr": "^15.0.1"
+  },
+  "homepage": "https://github.com/pitpanda1",
+  "bugs": {
+    "url": "https://github.com/pitpanda1",
+    "email": "p.billhardt@gmx.de"
+  },
+  "author": "Patrick Billhardt <p.billhardt@gmx.de>",
+  "license": "WTFPL",
+  "scripts": {
+    "build": "ng-packagr -p ng-package.json",
+    "publish": "npm publish --access public",
+    "update": "npm run build && npm run publish"
+  }
+}
